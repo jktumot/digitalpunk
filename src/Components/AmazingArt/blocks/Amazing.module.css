@@ -1,0 +1,91 @@
+.headAmazing {
+  max-height: 116px;
+  width: 506px;
+  text-align: left;
+}
+.amazingBox {
+  width: auto;
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.listAmazing {
+  display: flex;
+  gap: 30px;
+  width: auto;
+  justify-content: space-between;
+}
+.card {
+  width: 370px;
+  height: 458px;
+  background-color: #131e3a;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  border-top: 1px solid #d6ef0e;
+
+  gap: 30px;
+}
+.headDesc {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  height: 29px;
+  margin-bottom: 16px;
+}
+.cardDescription {
+  gap: 16px;
+}
+.placeBid {
+  border: 1px solid #d6ef0e;
+  display: flex;
+  padding: 12px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.placeCard {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  height: 50px;
+}
+.cardTime {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.timeIcon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (width < 1400px) {
+  .listAmazing {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (width < 800px) {
+  .amazingBox {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .headAmazing {
+    width: 450px;
+  }
+}
+@media (width < 450px) {
+  .headAmazing {
+    width: 356px;
+  }
+  .amazingBox {
+    gap: 40px;
+  }
+}

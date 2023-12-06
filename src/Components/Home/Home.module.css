@@ -1,0 +1,35 @@
+.navBar {
+  display: flex;
+  width: auto;
+  padding: 28px 111px;
+  /* margin-right: auto; */
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarLinksContainer {
+  width: 435px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (width < 800px) {
+  .navBar {
+    padding: 10px;
+  }
+}
+@media (width < 600px) {
+  .navBar {
+    padding: 15px;
+  }
+  .navbarLinksContainer {
+    justify-content: space-evenly;
+  }
+}
+@media (width < 400px) {
+  .navBar {
+    padding: 5px;
+  }
+  .navbarLinksContainer {
+    justify-content: space-around;
+  }
+}

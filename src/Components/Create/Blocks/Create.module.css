@@ -1,0 +1,62 @@
+.headerCreate {
+  width: 426px;
+  text-align: left;
+}
+.header {
+  text-align: left;
+}
+.headerDesc {
+  margin: 20px 0 40px 0;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  width: 303px;
+  justify-content: space-between;
+}
+.createPic {
+  width: 740px;
+  height: 559px;
+  margin: auto;
+}
+.picCreate_1 {
+  position: relative;
+  top: 155px;
+  right: 100px;
+  z-index: 1;
+}
+.picCreate_2 {
+  position: relative;
+  right: -163px;
+  top: -404px;
+}
+@media (width <1600px) {
+  .picCreate_1 {
+    top: 160px;
+  }
+}
+@media (width <1000px) {
+  .picCreate_2 {
+    right: 10px;
+  }
+  .picCreate_1 {
+    right: 190px;
+  }
+}
+@media (width <800px) {
+  .picCreate_2 {
+    right: 100px;
+  }
+  .picCreate_1 {
+    right: 200px;
+  }
+}
+@media (width <500px) {
+  .picCreate_2 {
+    right: 240px;
+  }
+  .picCreate_1 {
+    right: 250px;
+    top: 290px;
+  }
+}

@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+button {
+  padding: 12px 40px;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #d6ef0e;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fffffd;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+p {
+  color: #fffffd;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+h1 {
+  color: #fffffd;
+  font-family: Canela;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+h2 {
+  color: #fffffd;
+
+  font-family: Canela;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+h4 {
+  color: #fffffd;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+h6 {
+  color: #fffffd;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.hero-section {
+  display: flex;
+  width: auto;
+  height: 637px;
+  justify-content: space-between;
+  margin: 92px 111px;
+}
+
+.AmazingArtBox-section {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  margin: 92px 111px;
+  gap: 64px;
+}
+.createBox {
+  display: flex;
+  padding: 92px 111px;
+  width: auto;
+  height: 559px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+@media (width < 1400px) {
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+  }
+}
+@media (width < 600px) {
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    gap: 100px;
+  }
+}
+@media (width < 450px) {
+  a {
+    font-size: 12px;
+  }
+  .hero-section {
+    gap: 200px;
+  }
+  .AmazingArtBox-section {
+    gap: 120px;
+    margin: 20px;
+  }
+}
+@media (width < 1300px) {
+  .createBox {
+    flex-direction: column;
+  }
+}
